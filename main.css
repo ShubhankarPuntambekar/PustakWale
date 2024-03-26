@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sharada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 *, html{
     box-sizing: border-box;
     padding:0;
@@ -25,7 +24,7 @@
     --color-orange:#fda043;
     --color-floro-blue:#80d7e2;
     --color-floro-red:#cd3734;
-    --title-text-font:"Hind Siliguri", sans-serif;
+    --title-text-font:"Varela Round", sans-serif;
     --subTag-text-font:"Arimo", sans-serif;
     --para-font:"Arimo", sans-serif;
     --adv-txt-font:"Marcellus", serif;
@@ -33,6 +32,7 @@
     --stats-digit-font: "Rubik", sans-serif;
     --stats-txt-font: "Ubuntu", sans-serif;
     --footer-txt-font: "Arimo", sans-serif;
+   
 }
 a{
     text-decoration: none;
@@ -296,6 +296,8 @@ dialog{
     line-height: 1.66;
 }
 .dail-p{
+    display: flex;
+    justify-content: center;
     padding:1rem;
     margin-block: 2rem;
     margin-inline: auto;
